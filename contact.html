@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/navbar.css" type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul class="topnav navbar-right" id="myTopnav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container text-center">
+    <hr class="navHR">
+    <img src="./pictures/contact.jpg" class="img-responsive center-block" width="500" height="250" alt="Portrait">
+    <hr>
+    <h3>If you don't know me, you should know that I love to talk.</h3>
+    <hr>
+    <p class="lead">I'd love to discuss ideas, get involved in exciting projects, and help anyone I can. <br> Don't be shy to reach out to me via any of the information listed here.</p>
+    <hr>
+  </div>
+  <div class="container">
+    <table class="table-condensed" style="margin: 0px auto;">
+      <tbody>
+        <tr>
+          <td><span class="glyphicon glyphicon-envelope"></span></td>
+          <td><a style="font-size:18px" target="_blank" href="mailto:me@davidrower.com">me@davidrower.com</a></td>
+        </tr>
+        <tr>
+          <td><span class="glyphicon glyphicon-phone"></span></td>
+          <td><a style="font-size:18px" target="_blank" href="tel:+18183217127">(818) 321-7127</td>
+        </tr>
+        <tr>
+          <td><span class=" glyphicon glyphicon-globe"></span></td>
+          <td><a style="font-size:18px" target="_blank" href="https://github.com/davidrower">github</a></td>
+        </tr>
+        <tr>
+          <td><span class="glyphicon glyphicon-user"></span></td>
+          <td><a style="font-size:18px" target="_blank" href="https://www.linkedin.com/in/david-rower">linkedin</a></td>
+        </tr>
+        <tr>
+          <td><span class="glyphicon glyphicon-thumbs-up"></span></td>
+          <td><a style="font-size:18px" target="_blank" href="https://www.facebook.com/nathan.rower.1">facebook</a></td>
+        </tr>
+        <tr>
+          <td><span class="glyphicon 	glyphicon glyphicon-heart"></span></td>
+          <td><a style="font-size:18px" target="_blank" href="https://myanimelist.net/profile/dddavid">myanimelist</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+  </div>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+</body>
+</html>

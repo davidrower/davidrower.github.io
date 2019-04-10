@@ -1,0 +1,115 @@
+.body {
+    padding-bottom: 200px;
+}
+
+.waves {
+	position: fixed;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+}
+
+.sail {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	width: 200px;
+    animation-name: sail;
+    animation-duration: 10s;
+    -webkit-animation-name: sail; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+.boat {
+    animation-name: boat_swell;
+    animation-duration: 1s;
+    -webkit-animation-name: boat_swell; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    background-image: url("../pictures/sailing/water3.png");
+    background-position: -20px 0px;
+	z-index: 1;
+	width: 100%;
+    height: 200px;
+    animation-name: swell_one;
+    animation-duration: .7s;
+    -webkit-animation-name: swell_one; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .7s; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.wave2 {
+    opacity: .7;
+	position: absolute;
+	bottom: 0;
+	z-index: 3;
+	width: 100%;
+	height: 50px;
+    background-image: url("../pictures/sailing/water2.png");
+    animation-name: swell_two;
+    animation-duration: 1s;
+    -webkit-animation-name: swell_two; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sail {
+    from {transform: translate(30px, 0px);}
+    to {transform: translate(500px, 0px);}
+}
+
+/* Standard syntax */
+@keyframes sail {
+    from {transform: translate(30px, 0px);}
+    to {transform: translate(500px, 0px);}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes boat_swell {
+    from {height: 250px; transform: rotate(-10deg);}
+    to {height: 325px; transform: rotate(10deg);}
+}
+
+/* Standard syntax */
+@keyframes boat_swell {
+    from {height: 250px; transform: rotate(-10deg);}
+    to {height: 325px; transform: rotate(10deg);}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes swell_one {
+    from {height: 100px;}
+    to {height: 170px;}
+}
+
+/* Standard syntax */
+@keyframes swell_one {
+    from {height: 100px;}
+    to {height: 170px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes swell_two {
+    from {height: 75px;}
+    to {height: 150px;}
+}
+
+/* Standard syntax */
+@keyframes swell_two {
+    from {height: 75px;}
+    to {height: 150px;}
+}

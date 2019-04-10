@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+}
+
+.contain canvas, .overlay{
+  position: absolute;
+  width: 100%
+}
+
+.overlay {
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+#link {
+  z-index: 998;
+  pointer-events: auto;
+}
+
+.no {
+  display:none
+}

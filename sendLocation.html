@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+  <h1>Hello World!</h1>
+  <p class="lead" id="myInfo"></p>
+  <script> 
+  var x = document.getElementById("myInfo");
+  // sends post request to davidrower.com/writeLocation.php :)
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(sendPostRequest);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+
+  function sendPostRequest(position) {
+    var url = "http://davidrower.com/writeLocation.php";
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    var params = "lat=" + lat.toString() + "&lng=" + lng.toString();
+    x.innerHTML = params;
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", url, true);
+    //Send the proper header information along with the request
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.send(params);
+  }
+  window.location = "http://www.davidrower.com";
+  </script>
+</body>
+</html>

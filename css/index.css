@@ -1,0 +1,75 @@
+.img-center {
+     margin: 0 auto;
+ }
+
+h1 {
+  font-size: 40px;
+}
+
+.noUnderline a {
+  font-size: 17px;
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+
+.square {
+  width: 100%;
+  padding-bottom: 90%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.hobby {
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.research {
+  background-image: url("../pictures/research.jpg");
+}
+.music {
+  background-image: url("../pictures/piano.jpg");
+  background-repeat: no-repeat;
+  background-size: 65%
+}
+.coding {
+  background-image: url("../pictures/coding.png");
+}
+.sailing {
+  background-image: url("../pictures/sailing.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 70%
+}
+.motorcycles {
+  background-image: url("../pictures/motorcycles.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 80%
+}
+.melee {
+  background-image: url("../pictures/melee.png");
+}
+.resources {
+  background-image: url("../pictures/resources.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 70%
+}
+
+.square{
+  background-color: rgba(250, 250, 250, 0);
+  transition: background-color 0.2s linear;
+}
+
+.square:hover {
+  background-color: rgba(250, 250, 250, 0.5);
+}
+
+.square:hover {
+  color: black !important;
+  transition: color 0.2s linear;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resources</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/navbar.css" type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <ul class="topnav navbar-right" id="myTopnav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <hr class="navHR">
+    <h1>Resources</h1>
+    <p class='lead'>Here is a brief list of technical writeups
+      (by me and collaborators) that may be helpful to me/other people.</p>
+
+    <div class="panel-group lead">
+      <div class="panel panel-default">
+        <div class="panel-heading"><a target="_blank" href="https://arxiv.org/abs/1901.05085">Active and Passive Elastic Mechanics of Heterogeneous Lipid Vesicles</a></div>
+        <div class="panel-body">My first publication (still waiting on review)!
+        We discuss a one-particle-thick model for lipid membranes containing
+        large phase-separated domains, develop spectral methods to map our
+        simulations to continuum descriptions, and use passive and active
+        experiments to study the elastic mechanics of these complex lipid structures.</div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><a target="_blank" href="./docs/writeups/SIAM_LS18.pdf">Bending Rigidity Estimation of Heterogeneous Biological Membranes</a></div>
+        <div class="panel-body">Slides prepared for a talk I gave
+          at SIAM LS 2018. We discuss the shape fluctuations of monolayer fluid
+          membranes, and the problem of estimating their bending rigidities. You
+          can find a video of my giving the talk
+          <a target="_blank" href="https://www.pathlms.com/siam/courses/8687/sections/12370/video_presentations/115255">here</a>.</div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><a target="_blank" href="./docs/writeups/multigrid.pdf">Geometric Multigrid Methods</a></div>
+        <div class="panel-body"> The canonical linear system problem discussed
+          in the context of iterative matrix methods, specifically geometric
+          multigrid. This resource gives a nice overview and
+          example application. </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><a target="_blank" href="./docs/writeups/GPR.pdf">Gaussian Process Regression</a></div>
+        <div class="panel-body">A fun way to approach nonlinear regression
+          in a Bayesion framework, taking into account noise-corrupted data.
+          We discuss the inverse problem of finding a heat source given a
+          temperature profile.</div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><a target="_blank" href="./docs/writeups/planar_agents_controller.pdf"> Controller for Network of Planar Agents </a></div>
+        <div class="panel-body"> Done as a project for a Network Systems graduate
+          engineering course. We discuss some controllers for a network of
+          in-plane agents, and provide some stability calculations.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./bootstrap_files/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./bootstrap_files/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+</body>
+</html>

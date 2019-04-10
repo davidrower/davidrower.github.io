@@ -1,0 +1,14 @@
+#myCarousel {
+	margin: 0 auto;
+}
+
+#myCarousel p {
+	font-size: 18px;
+}
+#myCarousel .img-center{
+	height: 500px;
+	margin: 0 auto;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}

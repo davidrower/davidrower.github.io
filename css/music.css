@@ -1,0 +1,25 @@
+.banner {
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+}
+
+.b1 {
+  background-image: url("../pictures/music/b1.jpg");
+
+}
+.b2 {
+  background-image: url("../pictures/music/b4.jpg");
+}
+.b3 {
+  background-image: url("../pictures/music/b3.jpg");
+}
+.b4 {
+  background-image: url("../pictures/music/b2.jpg");
+}
+.b5 {
+  background-image: url("../pictures/music/b6.jpg");
+}
+.b6 {
+  background-image: url("../pictures/music/b5.jpg");
+}

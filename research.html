@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Research</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/navbar.css" type='text/css'>
+  <link rel="stylesheet" href="./css/research.css" type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body style='background: #fff'>
+
+  <div class="container">
+    <nav>
+      <ul class="topnav navbar-right" id="myTopnav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="contain" onClick="clickME()">
+    <div id = 'overlay' class="overlay">
+      <div class="container">
+        <hr class="navHR">
+        <h2>Computational Biophysics</h2>
+        <p class="lead">I am currently working several projects with Dr. Paul
+          Atzberger, leader of an applied mathematics
+          <a target="_blank" id="link" href="http://web.math.ucsb.edu/~atzberg/pmwiki_intranet/index.php?n=AtzbergerHomePage.Homepage?setskin=atzbergerHomepage4">research group</a>
+          at UCSB. We are studying coarse grained models for lipid bilayer
+          membranes and hydrodynamics. (side note - getting involved in this group was my first
+          serious exposure to research and computing, and I am immensely
+          thankful for the mentorship and motivation Dr. Atzberger has provided
+          me).</p>
+        <p class="lead">
+          For more details on my work, take a look at the (recently posted)
+          <a target="_blank" id="link" href="https://arxiv.org/abs/1901.05085">arXiv article</a>,
+          or a recent <a target="_blank" id="link" href="https://www.pathlms.com/siam/courses/8687/sections/12370/video_presentations/115255">talk I gave</a>
+          at the Society for Industrial and Applied Mathematics Conference on
+          Life Sciences (SIAM LS) 2018. </p>
+        <hr>
+        <h2>Autonomous Vehicles</h2>
+        <p class="lead">I involved myself in a more applied
+          <a target="_blank" id="link" href="http://www.ece.ucsb.edu/~ramtin/research.html">research group</a>
+          in the ECE department of UCSB. I explored this for around a quarter,
+          and in that time performed some validation simulations of road
+          capacity models for heterogenous traffic flows. The source code and
+          writeup for my simulations can be found
+          <a target="_blank" id="link" href="https://github.com/davidrower/collaboration_pedarsani">here</a>.
+        <hr>
+        <h2>Other Projects</h2>
+        <p class="lead">One of my first exposures to science was through an
+          orbital determination of the near earth asteroid 2102 Tantalus
+          (working in a group of three over two months). The write-up can be
+          found <a target="_blank" id="link" href="./docs/Orbit Determination.pdf">here</a>.
+          This work was done under the guidance of the
+          <a target="_blank" id = "link" href="http://www.summerscience.org/">Summer Science Program</a>.</p>
+        <hr>
+
+        <p class="lead">☺...yes, this is an n body simulation of my face. There
+          is a 4-2 Leonard-Jones potential between the particles and the mouse,
+          and an inverse distance law between all particles. (If you play around
+          with it for a bit, you'll probably realize the dynamics are flawed...if
+          you're curious why, reach out to me! Particles: <a id="counter">0</a>,
+          Mouse Position: (x,y): (<a id="xPos">0</a>,<a id="yPos">0</a>)</p>
+        <hr>
+      </div>
+      <img  id="david" class="no" width="20" height="20" src="./pictures/particles/lol.jpg">
+      <img  id="david1" class="no" width="20" height="20" src="./pictures/particles/lol2.jpg">
+      <img  id="david2" class="no" width="20" height="20" src="./pictures/particles/lol3.jpg">
+    </div>
+
+    <canvas width="500px" height="100%"></canvas>
+  </div>
+  <script type="text/javascript" src="physics.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+</body>
+</html>

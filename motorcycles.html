@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Motorcycles</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/navbar.css" type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <ul class="topnav navbar-right" id="myTopnav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <hr class="navHR">
+    <p class="lead">Once upon a time, my brother and I got bored, and enrolled in MSF.
+      At the beginning of his undergraduate junior year, he bought his first two motorcycles.
+      This inspired me. I got a job, saved up some money, and bought my first
+      bike, a 1989 Honda Hawk GT 650, during that spring break.</p>
+    <div class="row">
+      <div class="col-sm-6 hawk">
+        <h2>The Hawk</h2>
+        <h4>1989 Honda Hawk GT NT650</h4>
+        <hr>
+        <img src="./pictures/motorcycles/hawk.jpg" class="img-responsive" height=200px alt="Portrait">
+        <hr>
+        <p class="lead">Such a fun bike. Very glad I chose this as my first
+          (sophomore year spring break). It is forgiving yet not too limiting,
+          making it a nice bike to help develop my skills as a new rider. I've
+          learned plenty on it, and have come to love it as a versatile
+          around-town bike, which also doesn't just leave me stranded in
+          Santa Barbara. The bike is a little rough around the edges, but it
+          runs well besides some burning oil...</p>
+      </div>
+      <div class="col-sm-6 rebel">
+        <h2>The Rebel</h2>
+        <h4>1986 Honda Rebel CMX250</h4>
+        <hr>
+        <img src="./pictures/motorcycles/rebel.jpg" class="img-responsive" height=200px alt="Portrait">
+        <hr>
+        <p class="lead">My brother's first bike. My door to basic motorcycle
+          maintenence and modifications. With some guidance from my brother,
+          and some help from my friend James, I am looking to make this thing
+          a ridiculous project. So far, I swapped the OEM handlebar for a drag
+          bar, relocated the ignition off of the dash (to behind/below the seat),
+          machined my own dash part, and had my brother cut off the mufflers
+          with a dremmel tool...I was young then.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 vstar">
+        <h2>The V Star</h2>
+        <h4>2005 Yamaha V Star XVS650</h4>
+        <hr>
+        <img src="./pictures/motorcycles/vstar.jpg" class="img-responsive" height=200px alt="Portrait">
+        <hr>
+        <p class="lead">Bought this on the first day of my 12 week stay in
+          Santa Fe, New Mexico. Quite a fun ride, as I don't think I would
+          ride this sort of bike had it not been the best option on craigslist
+          at the time. It was fatter and has a louder personality than what I
+          was used to...letting me fit right in with all the cruisers in the
+          desert. I ended up losing $300 on it, not bad for a summer of riding!
+          At the time, I thought down on how it felt more like an underpowered
+          couch than a badass cruiser, but I actually miss the cozy and forgiving
+          character of the bike now.</p>
+      </div>
+      <div class="col-sm-6 nothing">
+      </div>
+      <div class="col-sm-6 superhawk">
+        <h2>The Superchicken</h2>
+        <h4>2001 Honda Superhawk VTR1000</h4>
+        <hr>
+        <img src="./pictures/motorcycles/superhawk.jpg" class="img-responsive" height=200px alt="Portrait">
+        <hr>
+        <p class="lead">Admittedly, my brother owned one before me, so I knew
+          more or less what I was getting myself into. The impetus: he let me
+          ride it (before I owned any bike of my own) - it was awesome, mean,
+          overloaded with power, and left a great impression. Until I dropped
+          it while making a u-turn at the end of the street. That is when I
+          decided I needed my own bikes to really learn how to ride. From the
+          Hawk to the Superhawk, I have felt large improvements in my riding,
+          and look forward to keep growing my skills as a rider and hobbyist.</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+</body>
+</html>

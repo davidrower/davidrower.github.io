@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/music.css" type='text/css'>
+  <link rel="stylesheet" href="./css/navbar.css" type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav>
+      <ul class="topnav navbar-right" id="myTopnav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <hr class="navHR">
+  <h1>I'm a big classical nerd.</h1>
+  <hr>
+  <p class="lead">Along with my passion for physics and mathematics, I have
+    always been a highly musical person. I've been playing piano most of my life,
+    and cello for a little less time. At the end of my first year at UCSB, I
+    assembled a casual string quartet to play through the standard repertoire
+    (our favorites include Borodin and Mendelssohn). Recently, I have been doing
+    the same with the piano trio repertoire (currently my favorite chamber
+    ensemble, we enjoy Schubert and Mendelssohn). During my junior year, I was
+    an officer of a club bringing music to community centers in Santa Barbara,
+    including behavioral health centers, homeless shelters, retirement homes,
+    etc. I have been a cellist in the <a target="_blank" id="link" href="https://www.facebook.com/PopsOrchestraUCSB/">UCSB Pops orchestra</a> for the past 3 years.
+    My interest in music comes from both performance and history.</p>
+  <p class="lead">I have always indulged in exploring music history.
+    The stories of composers inform their music, and I find
+    the interconnected nature of classical music through the past several
+    hundred years exciting. A treat for the reader - I discovered one historical
+    gem this summer; as Tchaikovsky wrote an elegy trio to Nikolai Rubinstein,
+    as Rachmaninoff wrote an elegy trio to Tchaikovsky, the story went one level
+    deeper. A more obscure and sparsely recorded Russian composer, Alexander
+    Goldenweiser, wrote an elegy trio for Rachmaninoff, completing a tragically
+    beautiful trio of elegy trios.</p>
+  <p class="lead">I have more Rachmaninoff days than anything else. Some of my favorite pieces as of right
+    now are his second piano sonata, and his second trio elegiaque. I don't
+    neccesarily like to be sad, but I cant help myself with Rachmaninoff. Recently,
+    I've also been obsessed with Schumann's Symphonic Etudes
+    and Medtner's piano quintet. For the cello, I have not explored the standard
+    repertoire as much, although some of my favorite pieces are Max Bruch's
+    Kol Nidrei and the prelude to Bach's 4th cello suite.</p>
+  <hr>
+  <h1>Recently, I've been trying to play jazz.</h1>
+  <audio controls>
+    <source src="./other/pureImagination.mp3" type="audio/mpeg">
+    Your browser does not support my precious attempt at jazz.
+  </audio>
+  <p class="lead">Here's a little recording I took of myself sight-reading
+    <i>Pure Imagination</i>.</p>
+  <hr>
+  <p class="lead">I realized how unhealthy it is to only play
+    classical...although I have to say the background in theory and history I
+    got from being stuck in 1850s Vienna really does give me a great
+    appreciation for jazz. After taking a vernacular harmony course in my first
+    year at UCSB, I made it my goal to become proficient in this new genre.</p>
+  <p class="lead">Learning to improvise is extremely rewarding and entertaining.
+    It's funny to see myself play something and be taken aback by the
+    interesting statements I can sometimes realize. It would be nice to find
+    some other players at my level (more or less) to explore this with.</p>
+  <hr>
+    <div class="row">
+      <div class="col-xs-2 banner b1"></div>
+      <div class="col-xs-2 banner b2"></div>
+      <div class="col-xs-2 banner b3"></div>
+      <div class="col-xs-2 banner b4"></div>
+      <div class="col-xs-2 banner b5"></div>
+      <div class="col-xs-2 banner b6"></div>
+    </div>
+  <hr>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+</body>
+</html>
