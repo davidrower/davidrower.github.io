@@ -9,48 +9,38 @@
   <link rel="stylesheet" href="./css/navbar.css" type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="./js/includeNavbar.js"></script>
 </head>
 
 <body>
-  <div class="container">
-    <nav>
-      <ul class="topnav navbar-right" id="myTopnav">
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li class="icon">
-          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">  </div>
+
   <div class="container">
     <hr class="navHR">
-    <h1>Who am I?</h1>
-      <p class="lead">To zeroth order, I am just another random nerd with a
+      <p class="lead"><b>Who am I?</b><br>
+        To zeroth order, I am just another random nerd with a
         personal website. To first order, you can approximate me as a combination
         of music and physics, although I love learning just about anything.
         It is a wild ride. Physics, math, and Medtner have become especially
         attractive to me since coming to UCSB.</p>
-      <p class="lead">I'm a very outgoing and sociable person. Spontaneous
-        both socially and intellectually. If you're curious about my
+      <p class="lead">I'm a very outgoing, sociable, and spontaneous person.
+        If you're curious about my
         professional self, you can check out my linkedin or github on the
         <a target="_blank" href="contact.html">contact</a> page, or
         my <a target="_blank" href="./docs/RowerCV.pdf">CV</a>.</p>
-      <hr>
-    <h2>Acknowledgements</h2>
-      <p class="lead">I'd like to give a special thanks to
+      <p class="lead"><b>Acknowledgements</b><br>I'd like to give a special thanks to
          <a target="_blank" href="http://www.kicohen.com">Kenny Cohen</a>
-         (he'll disagree, but I think he may be the smarter one) for teaching
+         for teaching
          me to teach myself. I'd also like to thank Solomon Abas for helping
          me with design questions and the like.</p>
-      <hr>
-    <h2>Logo Credits</h2>
-      <p class="lead">Some of the logos on the first page were taken from
+      <p class="lead"><b>Logo Credits</b><br>
+        Some of the logos on the first page were taken from
         wikipedia.org and diysolarpanelsv.com.</p>
-      <hr>
-    <h2>Postamble</h2>
-      <p class="lead">Alright, yes, I know, this website is rather lazy...as
+      <p class="lead"><b>Postamble:</b> <br>
+        Alright, yes, I know, this website is rather lazy...as
         someone more interested in physics and applied math than web development,
         I have stuck to what I know - static html pages rather than robust
         frameworks for dynamic websites...maybe one day I will get un-lazy with

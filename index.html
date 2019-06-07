@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="./css/index.css" type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="./js/includeNavbar.js"></script>
 </head>
 
 <body>
@@ -35,18 +38,16 @@
   }(document, 'script', 'facebook-jssdk'));
 </script>
 
-  <div class="container">
-    <nav>
-      <ul class="topnav navbar-right" id="myTopnav">
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li class="icon">
-          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+  });
+  </script>
+  <!--end of Navigation bar-->
+
   <div class="container">
     <hr class="navHR">
   </div>
