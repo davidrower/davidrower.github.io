@@ -30,24 +30,28 @@ h1 {
 .research {
   background-image: url("../pictures/research.png");
   background-repeat: no-repeat;
+  background-position: right center;
   background-size: 90%
 }
 .music {
   background-image: url("../pictures/piano.png");
   background-repeat: no-repeat;
-  background-size: 80%
+  background-position: right center;
+  background-size: 75%
 }
 .motorcycles {
   background-image: url("../pictures/motorcycles.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 80%
+  background-position: right center;
+  background-size: 75%
 }
 .resources {
   background-image: url("../pictures/resources.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 80%
+  background-position: right center;
+  background-size: 75%
 }
 
 .square{
