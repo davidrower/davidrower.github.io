@@ -16,41 +16,33 @@ h1 {
   width: 100%;
   padding-bottom: 90%;
   text-align: right;
-  padding-right: 0px;
+  padding-right: 10px;
 }
 
 .hobby {
   opacity: 1;
-  background-position: center;
+  background-position: right center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
   padding-left: 0;
   padding-right: 0;
 }
 
 .research {
   background-image: url("../pictures/research.png");
-  background-repeat: no-repeat;
-  background-position: right center;
   background-size: 90%
 }
 .music {
   background-image: url("../pictures/piano.png");
-  background-repeat: no-repeat;
-  background-position: right center;
   background-size: 70%
 }
 .motorcycles {
   background-image: url("../pictures/motorcycles.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right center;
   background-size: 70%
 }
 .resources {
   background-image: url("../pictures/resources.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right center;
   background-size: 70%
 }
 
