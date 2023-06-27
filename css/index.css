@@ -29,20 +29,13 @@ h1 {
 
 .research {
   background-image: url("../pictures/research.png");
+  background-repeat: no-repeat;
+  background-size: 90%
 }
 .music {
-  background-image: url("../pictures/piano.jpg");
+  background-image: url("../pictures/piano.png");
   background-repeat: no-repeat;
-  background-size: 65%
-}
-.coding {
-  background-image: url("../pictures/coding.png");
-}
-.sailing {
-  background-image: url("../pictures/sailing.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: 70%
+  background-size: 80%
 }
 .motorcycles {
   background-image: url("../pictures/motorcycles.png");
@@ -50,14 +43,11 @@ h1 {
   background-repeat: no-repeat;
   background-size: 80%
 }
-.melee {
-  background-image: url("../pictures/melee.png");
-}
 .resources {
   background-image: url("../pictures/resources.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 70%
+  background-size: 80%
 }
 
 .square{
