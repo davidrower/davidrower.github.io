@@ -22,7 +22,7 @@ h1 {
 .hobby {
   opacity: 1;
   background-position: right center;
-  background-size: cover;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-origin: content-box;
   padding-left: 0;
@@ -31,19 +31,15 @@ h1 {
 
 .research {
   background-image: url("../pictures/research.png");
-  background-size: 90%
 }
 .music {
   background-image: url("../pictures/piano.png");
-  background-size: 70%
 }
 .motorcycles {
   background-image: url("../pictures/motorcycles.png");
-  background-size: 70%
 }
 .resources {
   background-image: url("../pictures/resources.png");
-  background-size: 70%
 }
 
 .square{
