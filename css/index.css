@@ -21,7 +21,7 @@ h1 {
 
 .hobby {
   opacity: 1;
-  background-position: right center;
+  background-position: bottom 50% right 10px;
   background-size: 80%;
   background-repeat: no-repeat;
   background-origin: content-box;
