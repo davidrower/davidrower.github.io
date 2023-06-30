@@ -3,11 +3,6 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.container {
-  display: flex;
-  justify-content: center
-}
-
 .topnav {
   list-style-type: none;
   margin: 0;

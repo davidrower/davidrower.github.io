@@ -6,20 +6,15 @@ h1 {
   font-size: 40px;
 }
 
-.container {
-  display: flex;
-  justify-content: center
-}
-
-/* .tiles {
+.tiles {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   justify-content: center
-} */
-/* @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
   .tiles {
     width: 750px;
   }
@@ -33,7 +28,7 @@ h1 {
   .tiles {
     width: 1170px;
   }
-} */
+}
 
 .row {
   display: flex;
