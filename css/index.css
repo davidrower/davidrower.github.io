@@ -6,8 +6,28 @@ h1 {
   font-size: 40px;
 }
 
-.container {
-  display: flex
+.tiles {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center
+}
+@media (min-width: 768px) {
+  .tiles {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .tiles {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .tiles {
+    width: 1170px;
+  }
 }
 
 .row {
