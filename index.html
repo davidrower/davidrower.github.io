@@ -28,26 +28,6 @@
 </head>
 
 <body>
-<!-- Facebook API lol -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '444704452573399',
-      xfbml      : true,
-      version    : 'v2.9'
-    });
-    FB.AppEvents.logPageView();
-  };
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=444704452573399";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
   <!--Navigation bar-->
   <div id="nav-placeholder">  </div>
 
@@ -62,7 +42,7 @@
     <hr class="navHR">
   </div>
 
-  <div class="container text-center noUnderline">
+  <div class="container noUnderline">
     <div class="row">
       <div class="col-sm col-xs-5 research hobby">
         <a href="research.html"><div class="square"><b>research</b></div></a>
@@ -76,22 +56,8 @@
       <div class="col-sm col-xs-5 resources hobby">
         <a href="resources.html"><div class="square"><b>resources</b></div></a>
       </div>
-      <!-- <div class="col-sm col-xs-4 melee hobby">
-        <a href="melee.html"><div class="square"><b>melee</b></div></a>
-      </div>
-      <div class="col-sm col-xs-4 sailing hobby">
-        <a href="sailing.html"><div class="square"><b>sailing</b></div></a>
-      </div> -->
     </div>
   </div>
-
-  <!-- <div class="container">
-    <br>
-    <hr>
-    <div class="fb-like" data-href="https://davidrower.com" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true">(if you see this, ignore the next statement)</div>
-    <p class="lead">...please forgive my exploration of facebook's SDK :)</p>
-    <hr>
-  </div> -->
 
 
   <!-- Bootstrap core JavaScript

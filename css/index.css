@@ -6,23 +6,31 @@ h1 {
   font-size: 40px;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-flow: wrap;
+}
+
 .noUnderline a {
   font-size: 17px;
   color: rgb(0,0,0);
-  text-decoration: none;
 }
 
 .square {
   width: 100%;
-  padding-bottom: 90%;
+  padding-bottom: 98%;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 5%;
 }
 
 .hobby {
   opacity: 1;
-  background-position: right center;
-  background-size: 80%;
+  background-position: center center;
+  background-size: 90%;
   background-repeat: no-repeat;
   background-origin: content-box;
   padding-left: 0;
