@@ -6,15 +6,20 @@ h1 {
   font-size: 40px;
 }
 
-.tiles {
+.container {
+  display: flex;
+  justify-content: center
+}
+
+/* .tiles {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   justify-content: center
-}
-@media (min-width: 768px) {
+} */
+/* @media (min-width: 768px) {
   .tiles {
     width: 750px;
   }
@@ -28,13 +33,13 @@ h1 {
   .tiles {
     width: 1170px;
   }
-}
+} */
 
 .row {
   display: flex;
   margin: auto;
   justify-content: center;
-  flex-basis: 500px;
+  flex-basis: 800px;
   flex-flow: wrap;
 }
 
@@ -58,7 +63,7 @@ h1 {
   background-origin: content-box;
   padding-left: 0;
   padding-right: 0;
-  flex-basis: 200px
+  flex-basis: 350px
 }
 
 .research {
