@@ -6,12 +6,15 @@ h1 {
   font-size: 40px;
 }
 
+.container {
+  display: flex
+}
+
 .row {
   display: flex;
+  margin: auto;
   justify-content: center;
-  flex-basis: 200px;
-  flex-grow: 0;
-  flex-shrink: 0;
+  flex-basis: 500px;
   flex-flow: wrap;
 }
 
@@ -35,6 +38,7 @@ h1 {
   background-origin: content-box;
   padding-left: 0;
   padding-right: 0;
+  flex-basis: 200px
 }
 
 .research {
